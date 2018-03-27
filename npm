@@ -24,3 +24,6 @@ npm uninstall <package>
 # Append tag as an alias when installing 
 # ---tag alpha is the same as npm install module@alpha
 npm publish --tag <tagname>
+
+# To add arguments to scripts add -- (npm 2.0+)
+npm run script -- <arguments>
