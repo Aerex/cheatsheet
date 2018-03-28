@@ -72,4 +72,6 @@ d{motion}       delete text that {motion} moves over
 50k         moves 50 lines up
 2dw         deletes 2 words
 5yy         copies 5 lines
-42G         go to line 42
+
+#Buffer
+Ctrl-W = Make all buffer windows equal to each other (length and width)
