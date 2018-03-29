@@ -73,5 +73,15 @@ d{motion}       delete text that {motion} moves over
 2dw         deletes 2 words
 5yy         copies 5 lines
 
-#Buffer
-Ctrl-W = Make all buffer windows equal to each other (length and width)
+# Buffer
+
+# Close
+:bunload
+
+# To edit the previous buffer in the buffer list
+:bp
+:bNext
+:bprevious
+
+# Make all buffer windows equal to each other (length and width)
+Ctrl-W = 
