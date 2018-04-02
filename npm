@@ -27,3 +27,6 @@ npm publish --tag <tagname>
 
 # To add arguments to scripts add -- (npm 2.0+)
 npm run script -- <arguments>
+
+# Install packages in package.json except devDependencies
+npm install --production

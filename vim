@@ -73,5 +73,11 @@ d{motion}       delete text that {motion} moves over
 2dw         deletes 2 words
 5yy         copies 5 lines
 
+# Find
+#
+f{char}			To [count]'th occurrence of {char} to the right.  The cursor is placed on {char} inclusive.
+
+;			Repeat latest f, t, F or T [count] times. 
+
 #Buffer
 Ctrl-W = Make all buffer windows equal to each other (length and width)
