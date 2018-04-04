@@ -111,6 +111,13 @@ git log @{u}..
 git log -p feature --not master
 git diff master...feature
 
+# View a log of all updates (e.g. checkout, reset, commit, merge)
+git reflog
+
+# To undo a rest use git reflog A
+git reflog 
+git reset '<commit from git reflog>'
+
 # Interactive rebase for the last 7 commits
 git rebase -i @~7
 
