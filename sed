@@ -17,4 +17,10 @@ sed '/^$/d' file.txt
 sed ':a;N;$!ba;s/\n//g'  file.txt
 
 # Remove leading whitespace
-sed "s/^[ \t]*//"
+sed "s/^[ \t]*//
+
+# Delete the nth line where n is an integer 
+sed -i 'nd' file.txt
+
+#Delete the last line
+sed -i '$d' file.txt
