@@ -60,6 +60,10 @@ P               paste before cursor
 dd              delete a line
 d{motion}       delete text that {motion} moves over
 
+
+# Reindenting
+ggVG=
+
 # Search and replace with the `:substitute` (aka `:s`) command
 
 :s/foo/bar/	replace the first match of 'foo' with 'bar' on the current line only
