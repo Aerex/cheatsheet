@@ -72,6 +72,9 @@ git push orign <tagname>
 # To push all the tags (not recommended)
 git push --tags
 
+# To checkout a tag
+git checkout tags/<tagname>
+
 # To delete a remote branch
 git push --delete origin <tagname>
 

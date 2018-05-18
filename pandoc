@@ -1,0 +1,2 @@
+# convert a Markdown formatted README to reStructuredText
+pandoc --from=markdown --to=rst --output=README.rst README.md
